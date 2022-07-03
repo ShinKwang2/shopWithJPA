@@ -34,6 +34,9 @@ dependencies {
 	//spring security 추가
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 
+	//spring validation 추가
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
 	//querydsl 추가
 	implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
 	annotationProcessor "com.querydsl:querydsl-apt:${queryDslVersion}"
