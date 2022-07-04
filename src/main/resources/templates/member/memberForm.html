@@ -81,10 +81,10 @@
         </div>
 
         <div style="text-align: center">
-            <button type="submit" class="btn btn-primary" style="">Submit</button>
+            <button type="submit" class="btn btn-primary" style="">가입</button>
             <button type="button" class="btn btn-secondary"
                     th:onclick="|location.href='@{/}'|"
-                    onclick="location.href='/'">Cancel</button>
+                    onclick="location.href='/'">취소</button>
         </div>
         <input type="hidden" th:name="${_csrf.parameterName}"
                     th:value="${_csrf.token}">

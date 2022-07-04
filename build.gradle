@@ -46,6 +46,8 @@ dependencies {
 
 	//thymeleaf-layout-dialect 추가
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.1.0'
+	//thymeleaf-extras-springsecurity5
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
 
 
 	compileOnly 'org.projectlombok:lombok'
@@ -53,6 +55,9 @@ dependencies {
 	runtimeOnly 'mysql:mysql-connector-java'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	//spring-security-test
+	testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
